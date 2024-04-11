@@ -7,6 +7,10 @@ import scrapy
 
 
 class AttItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    operador = scrapy.Field()
+    departamento = scrapy.Field()
+    nombre = scrapy.Field()
+    velocidad_descarga = scrapy.Field()
+    velocidad_subida = scrapy.Field()
+    precio = scrapy.Field()
+    tipo_instalacion = scrapy.Field()
